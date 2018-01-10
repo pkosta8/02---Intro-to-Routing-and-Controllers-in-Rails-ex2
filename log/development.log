@@ -109,3 +109,24 @@ Processing by PagesController#contest as HTML
 Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/contest" for 127.0.0.1 at 2018-01-10 16:46:03 -0500
+Processing by PagesController#contest as HTML
+  Rendering pages/contest.html.erb within layouts/application
+  Rendered pages/contest.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-01-10 16:46:13 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2018-01-10 16:46:26 -0500
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+

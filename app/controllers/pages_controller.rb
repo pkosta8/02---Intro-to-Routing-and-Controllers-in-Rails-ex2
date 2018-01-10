@@ -12,4 +12,12 @@ def contest
   @header = "This is the contest page"
 end
 
+def kitten
+  @header = "Pick a size!"
+    requested_size = params[:size]
+  @kitten_url = "http://lorempixel.com/#{requested_size}/#{requested_size}/cats"
+
+end
+
+
 end

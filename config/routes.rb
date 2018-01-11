@@ -9,5 +9,5 @@ get '/kittens/:size'       => 'pages#kittens'
 
 get '/set_kitten_url/:size'       => 'pages#set_kitten_url'
 
-
+get '/secrets/:magic_word' => 'pages#secrets'
 end

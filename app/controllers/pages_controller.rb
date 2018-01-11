@@ -29,6 +29,19 @@ def set_kitten_url
   @kitten_url = "http://lorempixel.com/#{requested_size}/#{requested_size}/cats"
 end
 
-
+# def secret
+# flash[:alert] = "Sorry, you're not authorized to see that page!"
+# if
+#   redirect_to "/magic_word"
+# end
+#
+def secrets
+   if params[:magic_word] == 'magic' then
+      render :secrets
+   else
+     flash[:alert] = "Sorry, you're not authorized to see that page!"
+     redirect_to '/about'
+   end
+ end
 
 end
